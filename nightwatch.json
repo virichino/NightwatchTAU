@@ -1,0 +1,39 @@
+{
+    "src_folders": [
+        "tests"
+    ],
+    "detailed_output": true,
+    "globals_path": "global/globalModule.js",
+    "page_objects_path": [
+        "pages"
+    ],
+    "webdriver": {
+        "start_process": true,
+        "server_path": "node_modules/chromedriver/lib/chromedriver/chromedriver.exe",
+        "port": 9515,
+        "use_legacy_jsonwire": true
+    },
+    "desiredCapabilities": {
+        "goog:chromeOptions": {
+            "w3c": false,
+            "excludeSwitches": [
+                "enable-logging",
+                "enable-automation"
+            ]
+        }
+    },
+    "test_settings": {
+        "default": {
+			"screenshots": {
+				"enabled": true,
+				"on_failure": true,
+				"on_error": false,
+				"path": "screenshots"
+			},
+            "launch_url": "https://ultimateqa.com",
+            "desiredCapabilities": {
+                "browserName": "chrome"
+            }
+        }
+    }
+}

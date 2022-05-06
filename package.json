@@ -1,0 +1,29 @@
+{
+  "name": "nigthwatch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nightwatch",
+    "test:mocha": "nightwatch -c nightwatch_mocha.json -t ./test_mocha/tests.mocha.js",
+    "test:mochaDataDriven": "nightwatch -c nightwatch_mocha.json -t ./test_mocha/mochaDataDriven.js",
+    "test:mochaFormTests": "nightwatch -c nightwatch_mocha.json -t ./test_mocha/mochaFormTests.js",
+    "test:findingElements":"nightwatch -t ./tests/findingBasicElements.js",
+    "test:interactingElements":"nightwatch -t ./tests/interactingElements.js",
+    "test:elementState":"nightwatch -t ./tests/elementState.js",
+    "test:navigation":"nightwatch -t ./tests/navigation.js",
+    "test:userActionsPrompts":"nightwatch -t ./tests/userActionsPrompts.js",
+    "test:expectAssertion":"nightwatch -t ./tests/expectAssertion.js",
+    "test:assertAssertion":"nightwatch -t ./tests/assertAssertion.js",
+    "test:testHooks":"nightwatch -t ./tests/testHooks.js",
+    "test:formTest":"nightwatch -t ./tests/formTest.js",
+    "test:debuggingTest":"nightwatch -t ./tests/debuggingTest.js"
+    
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chromedriver": "^100.0.0",
+    "nightwatch": "^2.1.3"
+  }
+}

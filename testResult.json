@@ -1,0 +1,256 @@
+{
+	"passed": 6,
+	"failed": 0,
+	"errors": 0,
+	"skipped": 0,
+	"tests": 0,
+	"assertions": 6,
+	"errmessages": [],
+	"modules": {
+		"formTest": {
+			"reportPrefix": "CHROME_101.0.4951.41_Windows_",
+			"assertionsCount": 6,
+			"lastError": null,
+			"skipped": [],
+			"time": "12.32",
+			"completed": {
+				"Should successfully fill the left form": {
+					"time": "2.966",
+					"assertions": [
+						{
+							"message": "Testing if the page title equals \u001b[0;33m'Filling Out Forms | Ultimate QA'\u001b[0m \u001b[0;90m(14ms)\u001b[0m",
+							"stackTrace": "",
+							"fullMsg": "Testing if the page title equals \u001b[0;33m'Filling Out Forms | Ultimate QA'\u001b[0m \u001b[0;90m(14ms)\u001b[0m",
+							"failure": false
+						},
+						{
+							"message": "Expected element <#et_pb_contact_form_0> text to equal: \u001b[0;33m\"Thanks for contacting us\"\u001b[0m\u001b[0;90m (1636ms)\u001b[0m",
+							"stackTrace": "",
+							"fullMsg": "Expected element <#et_pb_contact_form_0> text to equal: \u001b[0;33m\"Thanks for contacting us\"\u001b[0m\u001b[0;90m (1636ms)\u001b[0m",
+							"failure": false
+						}
+					],
+					"passed": 2,
+					"errors": 0,
+					"failed": 0,
+					"skipped": 0,
+					"tests": 2,
+					"steps": [],
+					"stackTrace": "",
+					"testcases": {
+						"Should successfully fill the left form": {
+							"time": "2.966",
+							"assertions": [
+								{
+									"message": "Testing if the page title equals \u001b[0;33m'Filling Out Forms | Ultimate QA'\u001b[0m \u001b[0;90m(14ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Testing if the page title equals \u001b[0;33m'Filling Out Forms | Ultimate QA'\u001b[0m \u001b[0;90m(14ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Expected element <#et_pb_contact_form_0> text to equal: \u001b[0;33m\"Thanks for contacting us\"\u001b[0m\u001b[0;90m (1636ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Expected element <#et_pb_contact_form_0> text to equal: \u001b[0;33m\"Thanks for contacting us\"\u001b[0m\u001b[0;90m (1636ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 2,
+							"passed": 2,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 2966
+						}
+					},
+					"timeMs": 2966
+				},
+				"Should verify error message when the left form is not filled out and submitted": {
+					"time": "4.290",
+					"assertions": [
+						{
+							"message": "Testing if the text matches \u001b[0;33m<#et_pb_contact_form_0 > div:nth-child(1)>\u001b[0m \u001b[0;33m'Make sure you fill in all required fields'\u001b[0m \u001b[0;90m(3793ms)\u001b[0m",
+							"stackTrace": "",
+							"fullMsg": "Testing if the text matches \u001b[0;33m<#et_pb_contact_form_0 > div:nth-child(1)>\u001b[0m \u001b[0;33m'Make sure you fill in all required fields'\u001b[0m \u001b[0;90m(3793ms)\u001b[0m",
+							"failure": false
+						}
+					],
+					"passed": 1,
+					"errors": 0,
+					"failed": 0,
+					"skipped": 0,
+					"tests": 1,
+					"steps": [],
+					"stackTrace": "",
+					"testcases": {
+						"Should successfully fill the left form": {
+							"time": "2.966",
+							"assertions": [
+								{
+									"message": "Testing if the page title equals \u001b[0;33m'Filling Out Forms | Ultimate QA'\u001b[0m \u001b[0;90m(14ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Testing if the page title equals \u001b[0;33m'Filling Out Forms | Ultimate QA'\u001b[0m \u001b[0;90m(14ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Expected element <#et_pb_contact_form_0> text to equal: \u001b[0;33m\"Thanks for contacting us\"\u001b[0m\u001b[0;90m (1636ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Expected element <#et_pb_contact_form_0> text to equal: \u001b[0;33m\"Thanks for contacting us\"\u001b[0m\u001b[0;90m (1636ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 2,
+							"passed": 2,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 2966
+						},
+						"Should verify error message when the left form is not filled out and submitted": {
+							"time": "4.290",
+							"assertions": [
+								{
+									"message": "Testing if the text matches \u001b[0;33m<#et_pb_contact_form_0 > div:nth-child(1)>\u001b[0m \u001b[0;33m'Make sure you fill in all required fields'\u001b[0m \u001b[0;90m(3793ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Testing if the text matches \u001b[0;33m<#et_pb_contact_form_0 > div:nth-child(1)>\u001b[0m \u001b[0;33m'Make sure you fill in all required fields'\u001b[0m \u001b[0;90m(3793ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 1,
+							"passed": 1,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 4290
+						}
+					},
+					"timeMs": 4290
+				},
+				"Should successfully fill out the left form using - Page Object": {
+					"time": "5.067",
+					"assertions": [
+						{
+							"message": "Testing if the page title equals \u001b[0;33m'Filling Out Forms | Ultimate QA'\u001b[0m \u001b[0;90m(10ms)\u001b[0m",
+							"stackTrace": "",
+							"fullMsg": "Testing if the page title equals \u001b[0;33m'Filling Out Forms | Ultimate QA'\u001b[0m \u001b[0;90m(10ms)\u001b[0m",
+							"failure": false
+						},
+						{
+							"message": "Testing if the text matches \u001b[0;33m<Element [name=@lblLeftFormMessage]>\u001b[0m \u001b[0;33m'Thanks for contacting us'\u001b[0m \u001b[0;90m(1712ms)\u001b[0m",
+							"stackTrace": "",
+							"fullMsg": "Testing if the text matches \u001b[0;33m<Element [name=@lblLeftFormMessage]>\u001b[0m \u001b[0;33m'Thanks for contacting us'\u001b[0m \u001b[0;90m(1712ms)\u001b[0m",
+							"failure": false
+						},
+						{
+							"message": "Expected element <Section [name=rightForm],Element [name=@txtName]> to be visible\u001b[0;90m (65ms)\u001b[0m",
+							"stackTrace": "",
+							"fullMsg": "Expected element <Section [name=rightForm],Element [name=@txtName]> to be visible\u001b[0;90m (65ms)\u001b[0m",
+							"failure": false
+						}
+					],
+					"passed": 3,
+					"errors": 0,
+					"failed": 0,
+					"skipped": 0,
+					"tests": 3,
+					"steps": [],
+					"stackTrace": "",
+					"testcases": {
+						"Should successfully fill the left form": {
+							"time": "2.966",
+							"assertions": [
+								{
+									"message": "Testing if the page title equals \u001b[0;33m'Filling Out Forms | Ultimate QA'\u001b[0m \u001b[0;90m(14ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Testing if the page title equals \u001b[0;33m'Filling Out Forms | Ultimate QA'\u001b[0m \u001b[0;90m(14ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Expected element <#et_pb_contact_form_0> text to equal: \u001b[0;33m\"Thanks for contacting us\"\u001b[0m\u001b[0;90m (1636ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Expected element <#et_pb_contact_form_0> text to equal: \u001b[0;33m\"Thanks for contacting us\"\u001b[0m\u001b[0;90m (1636ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 2,
+							"passed": 2,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 2966
+						},
+						"Should verify error message when the left form is not filled out and submitted": {
+							"time": "4.290",
+							"assertions": [
+								{
+									"message": "Testing if the text matches \u001b[0;33m<#et_pb_contact_form_0 > div:nth-child(1)>\u001b[0m \u001b[0;33m'Make sure you fill in all required fields'\u001b[0m \u001b[0;90m(3793ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Testing if the text matches \u001b[0;33m<#et_pb_contact_form_0 > div:nth-child(1)>\u001b[0m \u001b[0;33m'Make sure you fill in all required fields'\u001b[0m \u001b[0;90m(3793ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 1,
+							"passed": 1,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 4290
+						},
+						"Should successfully fill out the left form using - Page Object": {
+							"time": "5.067",
+							"assertions": [
+								{
+									"message": "Testing if the page title equals \u001b[0;33m'Filling Out Forms | Ultimate QA'\u001b[0m \u001b[0;90m(10ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Testing if the page title equals \u001b[0;33m'Filling Out Forms | Ultimate QA'\u001b[0m \u001b[0;90m(10ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Testing if the text matches \u001b[0;33m<Element [name=@lblLeftFormMessage]>\u001b[0m \u001b[0;33m'Thanks for contacting us'\u001b[0m \u001b[0;90m(1712ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Testing if the text matches \u001b[0;33m<Element [name=@lblLeftFormMessage]>\u001b[0m \u001b[0;33m'Thanks for contacting us'\u001b[0m \u001b[0;90m(1712ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Expected element <Section [name=rightForm],Element [name=@txtName]> to be visible\u001b[0;90m (65ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Expected element <Section [name=rightForm],Element [name=@txtName]> to be visible\u001b[0;90m (65ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 3,
+							"passed": 3,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 5067
+						}
+					},
+					"timeMs": 5067
+				}
+			},
+			"errmessages": [],
+			"testsCount": 3,
+			"skippedCount": 0,
+			"failedCount": 0,
+			"errorsCount": 0,
+			"passedCount": 6,
+			"group": "",
+			"modulePath": "C:\\Users\\viri_\\Desktop\\cursos\\nigthwatch\\tests\\formTest.js",
+			"tests": 3,
+			"failures": 0,
+			"errors": 0
+		}
+	}
+}
